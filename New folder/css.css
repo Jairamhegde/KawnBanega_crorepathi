@@ -1,0 +1,174 @@
+
+@font-face {
+    font-family: poppins;
+    src: url(./Font/Poppins/Poppins-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+body{
+    background-color: #45457e;
+}
+.main{
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;  */
+    
+    /* padding:30px; */
+}  
+    
+
+
+/* -----------------------------------Life lines------------------------------- */
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+    
+}
+.topleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color:#0d0d5f;
+    border-radius: 1rem;
+}
+
+.topleft-top{
+    background-color: #646478;
+}
+.ques-for{
+    color: white;
+    font-size: 30px;
+}
+
+.lifelines55{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.img{
+    background-color: #212185;
+    width: 50px;
+    padding: 15px;
+    border-radius:45px ;
+    margin: 6px;
+}
+.img img{
+    width: 100%;
+}
+.lifelines55 p{
+    font-size: 15px;
+}
+
+
+
+.img:hover{
+    transform: scale(1.06);
+    transition: .2s ease;
+    box-shadow: 0px 0px 10px rgba(18, 18, 18, 0.5);
+    
+}
+.price-table{
+    display: flex;
+    background-color: #0d0d5f;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 8px;
+}
+.ulist{
+    
+    text-decoration: none;
+    justify-items: center;
+    
+}
+.listt{
+    list-style: none;
+    text-decoration: none;
+    background-color: #151573;
+    border: 1px solid #101047;
+    color: white;
+    border-radius: 1rem;
+    margin: 5px;
+    padding:3px 116px 11px 116px;
+    font-size: .8rem ;
+
+}
+
+
+.price{
+    font-weight: bold;
+}
+.bottom{
+
+    text-align: center;
+    
+}
+.timercontainer{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.timer{
+    background-color: #0d0d5f;
+    max-width: 90px;
+    border-top-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+    /* margin-right: 550px; */
+}
+.timer p{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    
+}
+.question-div{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8rem;
+    color: white;
+    background-color: #0d0d5f;
+}
+.ques-para{
+    color:white;
+}
+
+
+.options-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6px;
+    margin-top: 10px;
+    column-gap: 5px;
+    row-gap: 8px;
+}
+.options-div p{
+    background-color: #0d0d5f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    margin: px;
+    border-radius: 8rem;text-decoration: none;
+}
+.options-div p:hover{
+    transform: scale(1.02);
+
+    transition: .2s ease;
+}
+.options-div  p{
+    
+    color: white;
+}
